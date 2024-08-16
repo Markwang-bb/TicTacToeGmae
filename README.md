@@ -1,30 +1,31 @@
-# React + TypeScript + Vite
+<h1 align="center">井字游戏</h1>
+<div align="center">
+<p align="center">
+  <a href="./README.md">中文</a>｜
+  <a href="./English.md">英文</a>
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+vite + tsx + React 写的 Game 
+</div>
 
-Currently, two official plugins are available:
+## 安装 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```
+npm i 
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 版本
+
+* 0.0.1 发布 
+* 0.0.2 让它用 **垂直居中** 
+* 0.0.3 可以跟电脑对战
+* 0.0.4 速度慢了一点
+* 0.0.5 赢了鼠标变成 **disabled**
+
+
+
+
+
+
